@@ -18,7 +18,7 @@ const App = ()=>
     {  url: `https://source.unsplash.com/random/${Math.floor(Math.random() * 100)}`}
   ]) ;
 
-
+// function that add image to list
   const addImage = ()=>{
     setImages([...images,  {  url: `https://source.unsplash.com/random/${Math.floor(Math.random() * 100)}`}] );
   }
