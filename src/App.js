@@ -8,6 +8,7 @@ import Card from './Components/Card';
 
 const App = ()=>
 {
+  //initial arrImage
   const [images, setImages] = useState([
     {  url: `https://source.unsplash.com/random/${Math.floor(Math.random() * 100)}`},
     {  url: `https://source.unsplash.com/random/${Math.floor(Math.random() * 100)}`},
